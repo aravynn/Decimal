@@ -159,7 +159,7 @@ namespace ara {
 	}
 
 	// operator overloads
-	Decimal operator+(Decimal& d1, Decimal& d2) {  // TEST THIS
+	Decimal operator+(Decimal& d1, Decimal& d2) {
 		Decimal d;
 
 		// add the 2 values together
@@ -170,7 +170,7 @@ namespace ara {
 		return d;
 	}
 
-	Decimal operator-(Decimal& d1, Decimal& d2) { // TEST THIS
+	Decimal operator-(Decimal& d1, Decimal& d2) { 
 		Decimal d;
 		
 		// d1 - d2 always. 
@@ -181,7 +181,7 @@ namespace ara {
 		return d;
 	}
 
-	Decimal operator*(Decimal& d1, Decimal& d2) { // TEST THIS
+	Decimal operator*(Decimal& d1, Decimal& d2) { 
 		Decimal d;
 		
 		// values are mutiplied, therefore off by a factor of power()
@@ -195,7 +195,7 @@ namespace ara {
 		return d;
 	}
 
-	Decimal operator/(Decimal& d1, Decimal& d2) { // TEST THIS
+	Decimal operator/(Decimal& d1, Decimal& d2) { 
 		Decimal d;
 		
 		// values are mutiplied, therefore off by a factor of power() d1 / d2;
@@ -206,7 +206,7 @@ namespace ara {
 		return d;
 	}
 
-	Decimal operator%(Decimal& d1, Decimal& d2) { // TEST THIS
+	Decimal operator%(Decimal& d1, Decimal& d2) { 
 		Decimal d;
 	
 		// values are mutiplied, therefore off by a factor of power() d1 / d2;
